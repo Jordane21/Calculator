@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculatrice</title>
+<meta http-equiv="Content-Type" content= "text/html; charset=utf-8" />
+<link rel="stylesheet" type ="text/css" href="style.css" />
+
+ <!-- Bootstrap core CSS 
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"/> 
+-->
+</head>
+
+<body>
+
+    <h1><u>Exercices de chauff'</u></h1>
+
+    <hr>
+    <h3> My_array</h3>
+    <div id="div1"></div>
+    
+    <hr>
+
+    <h3> Vowel_count</h3>
+    <div id="div2"></div>
+    
+    <hr>
+
+    <h3> Reverse</h3>
+    <div id="div3"></div>
+    <hr>
+
+
+<h1><u>Ma Calculatrice</u></h1>
+
+<div id="container">
+     <div id="calculator">
+        <div id="header">
+             <input type="text" id="number" value ="0" autocomplete="off" disabled />
+        </div>  
+        <div id="body"> 
+            <div class= "buttons">7</div> 
+            <div class= "buttons">8</div> 
+            <div class= "buttons">9</div> 
+            <div class= "buttons">*</div> 
+            <div class= "buttons">4</div> 
+            <div class= "buttons">5</div> 
+            <div class= "buttons">6</div>
+            <div class= "buttons">/</div> 
+            <div class= "buttons">1</div>
+            <div class= "buttons">2</div>
+            <div class= "buttons">3</div>
+            <div class= "buttons">+</div>
+            <div class= "buttons">0</div> 
+            <div class= "buttons">.</div>
+            <div class= "buttons">=</div> 
+        </div>
+     </div> 
+</div>
+            <!-- <div class='buttons'>
+                <span class='clear'><button type="button" value="null" onClick=""> AC</button></span>
+                <span><button type="button" value="" onClick=""></button></span>
+                <span><button type="button" value="%" onClick="">%</button></span>
+                <span><button type="button" value="/" onClick="">/</button></span>
+                <br>
+                <span><button type="button" value="7" onClick="">7</button></span>
+                <span><button type="button" value="8" onClick="">8</button></span>
+                <span><button type="button" value="9" onClick="">9</button></span>
+                <span>-</span>
+                <br>
+                <span><button type="button" value="4" onClick="">4</button></span>
+                <span><button type="button" value="5" onClick="">5</button></span>
+                <span><button type="button" value="6" onClick="">6</button></span>
+                <span><button type="button" value="+" onClick="">+</button></span>
+                <br>
+                <span><button type="button" value="1" onClick="">1</button></span>
+                <span><button type="button" value="2" onClick="">2</button></span>
+                <span><button type="button" value="3" onClick="">3</button></span>
+                <span><button type="button" value="x" onClick="">x</button></span>
+                <br>
+
+                <span><button type="button" value="0" onClick="">0</button></span>
+                <span><button type="button" value="+" onClick="">,</button></span>
+                <span><button type="button" value="=" onClick="">=</button></span>
+            </div>
+        </div> -->
+</body>
+<script type="text/javascript" src="main.js"></script>
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        var calc = new Calculator();
+        calc.run();
+    });
+</script>
+</html>
